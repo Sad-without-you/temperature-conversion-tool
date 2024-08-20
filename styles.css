@@ -1,0 +1,111 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ece9e6, #88bccd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container Styling */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Heading Styling */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Input Box Styling */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+/* Radio Button Label Styling */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: translateY(0);
+}
+
+/* Result Text Styling */
+p#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input[type="number"] {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 12px 15px;
+    }
+
+    p#result {
+        font-size: 1em;
+    }
+}
