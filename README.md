@@ -21,4 +21,4 @@ This is a simple Temperature Conversion Tool built using JavaScript, HTML, and C
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Sad-without-you/temperature-conversion-tool.git
+   https://github.com/Sad-without-you/temperature-conversion-tool.git
